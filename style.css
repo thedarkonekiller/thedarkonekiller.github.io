@@ -3,10 +3,18 @@
     src: url(./assets/fonts/YeonSung-Regular.ttf);
 }
 
-h1 {
+.home h1 {
     color: chocolate;
     text-align: center;
     font-size: 5vw;
+    font-style: oblique;
+    font-family: "YeonSung", Verdana;
+}
+
+.home h2 {
+    color: chocolate;
+    text-align: center;
+    font-size: 2vw;
     font-style: oblique;
     font-family: "YeonSung", Verdana;
 }
