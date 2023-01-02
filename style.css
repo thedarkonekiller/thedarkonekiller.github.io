@@ -9,7 +9,7 @@ header {
     min-height: 855px;
 }
 
-.home h1 {
+.header h1 {
     color: chocolate;
     text-align: center;
     font-size: 5vw;
@@ -26,7 +26,18 @@ header {
     font-family: "YeonSung", Verdana;
     text-shadow: 5px 3px rgba(0, 0, 0, 0.363);
 }
+.headerbox {
+    flex-direction: column;
+    margin: 300px 100px;
+    padding-left: 150px;
+}
 
+.headerbox div {
+    background: none;
+}
+.home p {
+    color: azure;
+}
 .logo {
     height: 250px;
 }
@@ -37,6 +48,8 @@ body {
 .home div {
     list-style: none;
     display: flex;
+    background-color: black;
+    max-width: 50%;
 }
 
 .bodybox {
@@ -44,10 +57,4 @@ body {
     flex: 0 1 auto;
     margin: 100px 10px;
     align-items: center;
-}
-
-.headerbox {
-    flex-direction: column;
-    margin: 300px 100px;
-    padding-left: 150px;
 }
