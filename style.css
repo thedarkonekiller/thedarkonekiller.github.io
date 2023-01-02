@@ -1,4 +1,6 @@
 h1 {
-    font-style: oblique;
-    color: chocolate        ;
+    color: chocolate;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50vw;
 }
