@@ -37,6 +37,7 @@ header {
 }
 .home p {
     color: azure;
+    text-align: center;
 }
 .logo {
     height: 250px;
@@ -48,7 +49,6 @@ body {
 .home div {
     list-style: none;
     display: flex;
-    background-color: black;
     max-width: 50%;
 }
 
@@ -56,5 +56,12 @@ body {
     flex-direction: column;
     flex: 0 1 auto;
     margin: 100px 10px;
+    padding-bottom: 50px;
     align-items: center;
+    background-color: black;
+    border-radius: 25px 25px;
+}
+
+.bodybox img {
+    border-radius: 100px;
 }
