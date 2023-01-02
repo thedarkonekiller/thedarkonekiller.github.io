@@ -1,6 +1,12 @@
+@font-face {
+    font-family: "YeonSung";
+    src: url(./assets/fonts/YeonSung-Regular.ttf);
+}
+
 h1 {
     color: chocolate;
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 50vw;
+    font-size: 5vw;
+    font-style: oblique;
+    font-family: "YeonSung", Verdana;
 }
