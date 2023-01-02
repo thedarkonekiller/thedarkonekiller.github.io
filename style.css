@@ -2,6 +2,12 @@
     font-family: "YeonSung";
     src: url(./assets/fonts/YeonSung-Regular.ttf);
 }
+header {
+    background: no-repeat url(./assets/images/bg_header.jpg);
+    background-size: cover;
+    display: flex;
+    min-height: 855px;
+}
 
 .home h1 {
     color: chocolate;
@@ -9,6 +15,7 @@
     font-size: 5vw;
     font-style: oblique;
     font-family: "YeonSung", Verdana;
+    text-shadow: 10px 6px rgba(0, 0, 0, 0.671);
 }
 
 .home h2 {
@@ -17,4 +24,30 @@
     font-size: 2vw;
     font-style: oblique;
     font-family: "YeonSung", Verdana;
+    text-shadow: 5px 3px rgba(0, 0, 0, 0.363);
+}
+
+.logo {
+    height: 250px;
+}
+body {
+    background: no-repeat url(./assets/images/bg1.jpg);
+    background-size: cover;
+}    
+.home div {
+    list-style: none;
+    display: flex;
+}
+
+.bodybox {
+    flex-direction: column;
+    flex: 0 1 auto;
+    margin: 100px 10px;
+    align-items: center;
+}
+
+.headerbox {
+    flex-direction: column;
+    margin: 300px 100px;
+    padding-left: 150px;
 }
