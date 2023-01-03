@@ -15,6 +15,7 @@ header {
     font-style: oblique;
     font-family: "YeonSung", Verdana;
     text-shadow: 10px 6px rgba(0, 0, 0, 0.671);
+    animation: slidey 0.2s linear 0s 5;
 }
 
 .home h2 {
@@ -32,6 +33,7 @@ header {
 }
 .logo {
     height: 15rem;
+    animation: rotate 1s;
 }
 body {
     background: no-repeat url(./assets/images/bg1.jpg);
@@ -51,10 +53,37 @@ body {
     align-items: center;
     background-color: black;
     border-radius: 25px 25px;
+    animation: rotate 1s;
 }
 
 .bodybox img {
     border-radius: 100px;
+}
+
+
+@keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+@keyframes slidey {
+    0% {
+        transform: translateY(0px);
+    }
+    25% {
+        transform: translateY(-50px);
+    }
+    75% {
+        transform: translateY(50px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+    
 }
 
 @media screen and (max-width: 910px) {
@@ -64,5 +93,12 @@ body {
 
     .headerbox h1 {
         font-size: 3rem;
+        animation-name: none;
+    }
+    .logo {
+        animation-name: none;
+    }
+    .bodybox {
+        animation-name: none;
     }
 }
