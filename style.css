@@ -5,21 +5,13 @@
 header {
     background: no-repeat url(./assets/images/bg_header.jpg);
     background-size: cover;
-    display: flex;
-    min-height: 300px;
+    display: blok;
     border-radius: 25px;
 }
 
-@media screen and (min-width: 910px) {
-    header {
-        min-height: 100px;
-    }
-    
-}
-
-.header h1 {
+.headerbox h1 {
     color: chocolate;
-    font-size: 10vw;
+    font-size: 5rem;
     font-style: oblique;
     font-family: "YeonSung", Verdana;
     text-shadow: 10px 6px rgba(0, 0, 0, 0.671);
@@ -39,7 +31,7 @@ header {
     text-align: center;
 }
 .logo {
-    height: 15vw;
+    height: 15rem;
 }
 body {
     background: no-repeat url(./assets/images/bg1.jpg);
@@ -63,4 +55,14 @@ body {
 
 .bodybox img {
     border-radius: 100px;
+}
+
+@media screen and (max-width: 910px) {
+    header {
+        min-height: 100px;
+    }
+
+    .headerbox h1 {
+        font-size: 3rem;
+    }
 }
