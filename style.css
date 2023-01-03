@@ -6,13 +6,20 @@ header {
     background: no-repeat url(./assets/images/bg_header.jpg);
     background-size: cover;
     display: flex;
-    min-height: 855px;
+    min-height: 300px;
+    border-radius: 25px;
+}
+
+@media screen and (min-width: 910px) {
+    header {
+        min-height: 100px;
+    }
+    
 }
 
 .header h1 {
     color: chocolate;
-    text-align: center;
-    font-size: 5vw;
+    font-size: 10vw;
     font-style: oblique;
     font-family: "YeonSung", Verdana;
     text-shadow: 10px 6px rgba(0, 0, 0, 0.671);
@@ -21,26 +28,18 @@ header {
 .home h2 {
     color: chocolate;
     text-align: center;
-    font-size: 2vw;
+    font-size: 4vw;
     font-style: oblique;
     font-family: "YeonSung", Verdana;
     text-shadow: 5px 3px rgba(0, 0, 0, 0.363);
 }
-.headerbox {
-    flex-direction: column;
-    margin: 300px 100px;
-    padding-left: 150px;
-}
 
-.headerbox div {
-    background: none;
-}
 .home p {
     color: azure;
     text-align: center;
 }
 .logo {
-    height: 250px;
+    height: 15vw;
 }
 body {
     background: no-repeat url(./assets/images/bg1.jpg);
@@ -49,14 +48,14 @@ body {
 .home div {
     list-style: none;
     display: flex;
-    max-width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 0px 20px 40px;
 }
 
 .bodybox {
     flex-direction: column;
-    flex: 0 1 auto;
-    margin: 100px 10px;
-    padding-bottom: 50px;
     align-items: center;
     background-color: black;
     border-radius: 25px 25px;
