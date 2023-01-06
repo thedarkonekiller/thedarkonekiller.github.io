@@ -5,7 +5,7 @@
 header {
     background: no-repeat url(./assets/images/bg_header.jpg);
     background-size: cover;
-    display: blok;
+    display: block;
     border-radius: 25px;
 }
 
@@ -60,6 +60,25 @@ body {
     border-radius: 100px;
 }
 
+footer {
+    background: fixed rgba(0, 0, 0, 0.589);
+    color: chocolate;
+}
+
+footer ul {
+    list-style: none;
+}
+
+#gridfooter {
+    display: grid;
+    grid-template: repeat(1, 1fr) / 300px 300px;
+}
+
+#foo1 {
+}
+
+#foo2 {
+}
 
 @keyframes rotate {
     0% {
