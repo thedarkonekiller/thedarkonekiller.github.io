@@ -15,16 +15,27 @@
     <div class="headerbox">
       <h1 class="headerbox">Chti'Concept</h1>
     </div>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="topnav" id="mainTopnav">
+  <a href="#home" class="active">accueil</a>
+  <a href="#services">Nos Services</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">Notre Histoire</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
   </header>
   <body class="home">
     <div class="home">
       <div class="bodybox">
-        <h2>Le Fondateur</h2>
+        <h2><a name="about">Le Fondateur</a></h2>
           <p>Le Fondateur, Florian Charpentier, est un autodidacte qui a voulut mettre à profit<br>ses années d'expérience pour fournir un service de qualité<br>à ses clients.</p>
           <img src="./assets/images/florian1.jpg" alt="Photo du fondateur Florian Charpentier" height="300px">
       </div>
       <div class="bodybox">
-        <h2>ChtiConcept, C'est Quoi ?</h2>
+        <h2><a name="services">ChtiConcept, C'est Quoi ?</a></h2>
           <p>
             ChtiConcept est là pour vous proposer un service tout en un.<br> Cela comprend :</p>
             <div>
@@ -36,7 +47,7 @@
           <img src="./assets/images/concept.png" id="concept" alt="Photo illustrant les services proposés par chticoncept" height="300px">
       </div>
       <div class="bodybox">
-        <h2>Nous Contacter</h2>
+        <h2><a name="contact">Contacter-Nous</a></h2>
         <form action="/traitement-du-formulaire" method="post">
           <label for="nom">Nom:</label><br>
           <input type="text" id="nom" name="nom" required><br>
@@ -49,7 +60,7 @@
           <label for="message">Message:</label><br>
           <textarea id="message" name="message" rows="5" cols="30"></textarea><br><br>
           <input type="checkbox" name="rgpd" id="rgpd" value="rgpd_validation">
-          <label for="rgpd">En soumettant ce formulaire, j'accepte que les informations saisies soient exploitées <br> dans le cadre de ma demande et de la relation commerciale qui peut en découler.</label><br><br>
+          <label id="cb_rgpd" for="rgpd">En soumettant ce formulaire, j'accepte que les informations saisies soient exploitées <br> dans le cadre de ma demande et de la relation commerciale qui peut en découler.</label><br><br>
           <input type="submit" value="Envoyer">
         </form> 
       </div>
@@ -65,10 +76,10 @@
       </div>
       <div>
         <ul id="foo2">
-          <li>Qui Sommes Nous ?</li>
-          <li>Nos Services</li>
+          <li><a href="#about">Qui Sommes Nous ?</a></li>
+          <li><a href="#about">Nos Services</a></li>
           <li>S.A.V</li>
-          <li>Nous Contacter</li>
+          <li><a href="#contact">Contacter</a></li>
         </ul>
     </div>
   </footer>
