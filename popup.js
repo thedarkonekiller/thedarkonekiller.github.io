@@ -27,7 +27,7 @@ window.onload = function() {
     //Crée un bouton pour fermer la popup
     var closeButton = document.createElement("button");
     closeButton.innerHTML = "Fermer";
-    closeButton.style.backgroundColor = "#333";
+    closeButton.style.backgroundColor = "#4CAF50";
     closeButton.style.color = "#fff";
     closeButton.style.padding = "10px 20px";
     closeButton.style.border = "none";
