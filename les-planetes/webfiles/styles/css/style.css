@@ -334,6 +334,9 @@ footer ul {
 /* Responsive */
 
 @media screen and (max-width: 1220px) {
+    #logo {
+        margin-left: 50px;
+    }
 
     .left,
     .right {
