@@ -8,6 +8,10 @@
 }
 
 $mainColor: white;
+%links {
+    text-decoration: none;
+    color: $mainColor;
+}
 
 * {
     margin: 0;
@@ -32,8 +36,7 @@ header {
         display: flex;
     }
     a {
-        text-decoration: none;
-        color: $mainColor;
+        @extend %links;
         padding: 1rem 2rem;
         font-size: 2rem;
        }
@@ -45,5 +48,9 @@ footer {
     transform: translatex(-50%);
     p {
         color: $mainColor;
+    }
+    a {
+        @extend %links;
+        font-size: 1rem;
     }
 }

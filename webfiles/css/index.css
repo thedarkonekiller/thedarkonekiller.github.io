@@ -6,6 +6,11 @@
   font-family: "TheGirlNextDoor-Regular";
   src: url(../../src/fonts/TheGirlNextDoor-Regular.ttf);
 }
+footer a, header a {
+  text-decoration: none;
+  color: white;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -32,8 +37,6 @@ header ul {
   display: flex;
 }
 header a {
-  text-decoration: none;
-  color: white;
   padding: 1rem 2rem;
   font-size: 2rem;
 }
@@ -46,6 +49,9 @@ footer {
 }
 footer p {
   color: white;
+}
+footer a {
+  font-size: 1rem;
 }
 
 /*# sourceMappingURL=index.css.map */
