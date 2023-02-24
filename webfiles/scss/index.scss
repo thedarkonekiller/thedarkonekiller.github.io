@@ -6,6 +6,9 @@
     font-family: "TheGirlNextDoor-Regular";
     src: url(../../src/fonts/TheGirlNextDoor-Regular.ttf);
 }
+
+$mainColor: white;
+
 * {
     margin: 0;
     padding: 0;
@@ -18,11 +21,12 @@ body {
 h1 {
     font-family: "TheGirlNextDoor-Regular";
     font-size: 8rem;
+    color: $mainColor;
 }
 ul {
     display: flex;
     a{
         text-decoration: none;
-        color: white;
+        color: $mainColor;
     }
 }
