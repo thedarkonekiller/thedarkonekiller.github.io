@@ -86,6 +86,9 @@ header nav a:hover::after {
         transform: scaleX(1);
     }
 }
+#hmenu {
+    display: none;
+}
 
 /* Main */
 main div {
@@ -369,8 +372,32 @@ footer span {
 }
 
 @media screen and (max-width: 820px) {
+    header div img {
+        margin-left: 40px;
+    }
     header nav {
         display: none;
+    }
+    #hmenu {
+        display: block;
+        width: 30px;
+        height: 30px;
+        margin: 10px 40px;
+        background-color: transparent;
+        border: none;
+        border-top: 2px solid #C4C4C4;
+        border-bottom: 2px solid #C4C4C4;
+        position: relative;
+
+    }
+    #hmenu:after {
+        position: absolute;
+        top: 50%;
+        transform: translateX(-50%);
+        content: "";
+        height: 1px;
+        width: 30px;
+        background: #C4C4C4;
     }
 
     h3:before, h3:after {

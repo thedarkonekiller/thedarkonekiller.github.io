@@ -1,0 +1,22 @@
+main {
+    display: flex;
+    flex-direction: row-reverse;
+}
+article {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    img {
+        width: 364px;
+        height: 203px;
+    }
+}
+aside {
+    ul {
+        list-style: none;
+        a {
+            text-decoration: none;
+            color: #9F9F9F;
+        }
+    }
+}
