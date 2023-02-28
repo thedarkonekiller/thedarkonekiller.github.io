@@ -1,3 +1,16 @@
 @import url(./header.css);
 @import url(./main.css);
 @import url(./footer.css);
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url(../../src/fonts/Montserrat-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Montserrat-Regular", Verdana, Tahoma, sans-serif;
+    font-size: 16px;
+}

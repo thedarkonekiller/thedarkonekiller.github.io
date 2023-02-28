@@ -1,24 +1,56 @@
+@font-face {
+  font-family: "Cardo-Regular";
+  src: url(../../src/fonts/Cardo-Regular.ttf);
+}
 main {
   display: flex;
   flex-direction: row-reverse;
 }
-
-article {
+main article {
   display: flex;
   width: 70%;
   margin: 0 auto;
 }
-article img {
+main article img {
   width: 364px;
   height: 203px;
 }
-
-aside ul {
-  list-style: none;
+main article p:first-of-type {
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 23px;
 }
-aside ul a {
+main article h2 {
+  font-family: "Cardo-Regular", Verdana, Tahoma, sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 41px;
+}
+main article p:last-of-type {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: justify;
+}
+main aside section {
+  width: 378px;
+}
+main aside ul {
+  list-style: none;
+  padding-left: 0;
+}
+main aside ul a {
   text-decoration: none;
   color: #9F9F9F;
+  font-size: 17px;
+  line-height: 23px;
+  font-weight: 500;
+}
+main aside hr {
+  width: 281px;
+  color: #9F9F9F;
+  margin: 0;
 }
 
 /*# sourceMappingURL=main.css.map */
