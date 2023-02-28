@@ -10278,14 +10278,20 @@ readers do not read off random characters that represent icons */
 header nav {
   display: flex;
   justify-content: space-between;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
 }
 header ul {
   display: flex;
   list-style: none;
 }
+header ul li {
+  display: flex;
+}
 header ul a {
   text-decoration: none;
-  padding: 36px 55px;
+  padding: 2.25rem 3.4375rem;
   color: #9F9F9F;
 }
 header ul a:hover {
@@ -10296,7 +10302,10 @@ header div {
   align-items: center;
 }
 header div i {
-  padding: 0 15px;
+  padding: 0 0.9375rem;
+}
+header div i:last-of-type {
+  margin-right: 1.3125rem;
 }
 header img {
   width: 100%;

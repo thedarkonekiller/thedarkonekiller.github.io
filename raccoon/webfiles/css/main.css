@@ -9,11 +9,12 @@ main {
 main article {
   display: flex;
   width: 70%;
-  margin: 0 auto;
+  margin: 3.125rem auto;
 }
 main article img {
   width: 364px;
   height: 203px;
+  padding: 0 1.5625rem;
 }
 main article p:first-of-type {
   color: rgba(0, 0, 0, 0.6);
@@ -26,6 +27,8 @@ main article h2 {
   font-weight: 700;
   font-size: 36px;
   line-height: 41px;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
 }
 main article p:last-of-type {
   font-weight: 500;
@@ -33,12 +36,27 @@ main article p:last-of-type {
   line-height: 30px;
   text-align: justify;
 }
+main aside {
+  background-color: #FBFBFB;
+}
 main aside section {
   width: 378px;
+}
+main aside h3 {
+  font-weight: 700;
+  font-size: 1.875rem;
+  line-height: 40px;
+  text-align: justify;
+  margin-top: 3.125rem;
 }
 main aside ul {
   list-style: none;
   padding-left: 0;
+  margin-top: 1.875rem;
+  margin-bottom: 3.125rem;
+}
+main aside ul li {
+  display: flex;
 }
 main aside ul a {
   text-decoration: none;
@@ -46,6 +64,7 @@ main aside ul a {
   font-size: 17px;
   line-height: 23px;
   font-weight: 500;
+  padding: 0.5625rem 0;
 }
 main aside hr {
   width: 281px;

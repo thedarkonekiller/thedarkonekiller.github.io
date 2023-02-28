@@ -9,13 +9,19 @@ header {
     nav {
         display: flex;
         justify-content: space-between;
+        max-width: 1200px;
+        width: 100%;
+        margin: 0 auto;
     }
     ul {
         display: flex;
         list-style: none;
+        li {
+            display: flex;
+        }
         a {
             text-decoration: none;
-            padding: 36px 55px;
+            padding: 2.25rem 3.4375rem;
             color: #9F9F9F;
         }
         a:hover {
@@ -26,7 +32,10 @@ header {
         display: flex;
         align-items: center;
         i {
-            padding: 0 15px;
+            padding: 0 0.9375rem;
+        }
+        i:last-of-type {
+            margin-right: 1.3125rem;
         }
     }
     img {
